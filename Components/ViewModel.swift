@@ -14,7 +14,7 @@ final class ViewModel: ObservableObject {
     
     //TODO: figure out how to properly store secrets in swift
     func setup() {
-        client = OpenAISwift(authToken: "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")
+        client = OpenAISwift(authToken: "")
     }
     
     // Send Func to API to get response
